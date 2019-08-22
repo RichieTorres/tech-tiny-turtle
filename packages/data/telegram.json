@@ -1,0 +1,9 @@
+{
+  "name": "Telegram",
+  "base_url": "https://updates.tdesktop.com/tlinux/tsetup.{version}.tar.xz",
+  "versions": [
+    "1.8.2"
+  ],
+  "md5sum": "8f1d2ffaf9dc8922499fd4337bb60a2b",
+  "entry": "[Desktop Entry]\nVersion=1.0\nName=Telegram Desktop\nComment=Official desktop application for the Telegram messaging service\nTryExec={OPT_FOLDER}/Telegram/Telegram\nExec={OPT_FOLDER}/Telegram/Telegram -- %u\nIcon=telegram\nTerminal=false\nStartupWMClass=TelegramDesktop\nType=Application\nCategories=Network;InstantMessaging;Qt;\nMimeType=x-scheme-handler/tg;\nKeywords=tg;chat;im;messaging;messenger;sms;tdesktop;\nX-GNOME-UsesNotifications=true\nX-Desktop-File-Install-Version=0.23"
+}

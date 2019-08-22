@@ -1,0 +1,9 @@
+{
+  "name": "PyCharm Professional",
+  "base_url": "https://download.jetbrains.com/python/pycharm-professional-{version}.tar.gz",
+  "versions": [
+    "2019.2"
+  ],
+  "md5sum": "9ad4e592477176956a2245e68e895f8e",
+  "entry": "[Desktop Entry]\nVersion=1.0\nType=Application\nName=PyCharm Professional Edition\nIcon={OPT_FOLDER}/pycharm-2019.2/bin/pycharm.svg\nExec=\"{OPT_FOLDER}/pycharm-2019.2/bin/pycharm.sh\" %f\nComment=Python IDE for Professional Developers\nCategories=Development;IDE;\nTerminal=false\nStartupWMClass=jetbrains-pycharm\n"
+}
