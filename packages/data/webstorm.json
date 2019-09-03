@@ -1,0 +1,9 @@
+{
+    "name": "WebStorm",
+    "base_url": "https://download-cf.jetbrains.com/webstorm/WebStorm-{version}.tar.gz",
+    "versions": [
+        "2019.2.1"
+    ],
+    "md5sum": "1d56e509d7c1befcc408bb2e61b20ffc",
+    "entry": "[Desktop Entry]\nVersion=1.0\nType=Application\nName=WebStorm\nIcon={OPT_FOLDER}/WebStorm-192.6262.59/bin/webstorm.svg\nExec=\"{OPT_FOLDER}/WebStorm-192.6262.59/bin/webstorm.sh\" %f\nComment=Python IDE for Professional Developers\nCategories=Development;IDE;\nTerminal=false\nStartupWMClass=jetbrains-webstorm\n"
+}

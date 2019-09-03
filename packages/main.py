@@ -39,7 +39,7 @@ def install(p):
     print(f'Downloading {url}')
     file_name = download_file(url, md5sum)
 
-    extract_file(file_name, p, data['extract_with_folder'])
+    extract_file(file_name, p, data.get('extract_with_folder', False))
     link_bin_folder(p)
 
 
@@ -91,4 +91,5 @@ def link_bin_folder(package_name):
     package_bin_folder = os.path.join(OPT_FOLDER, package_name, 'bin')
     if os.path.isdir(package_bin_folder):
         for f in os.listdir(package_bin_folder):
-            os.symlink( os.path.join(package_bin_folder, f), os.path.join(BIN_FOLDER, f))
+            os.symlink(os.path.join(package_bin_folder, f),
+                       os.path.join(BIN_FOLDER, f))
